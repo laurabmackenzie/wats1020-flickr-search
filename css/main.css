@@ -2,48 +2,60 @@
    Author's custom styles
    ========================================================================== */
 
-/* Enable these styles if you wish to go into a grid layout.
-ul#images li {
-    width: 120px;
-    height: auto;
-    display: inline-block;
-    position: relative;
-    float: left;
-}
-
-ul#images li img {
-    display: inline-block;
-    width: 100%;
-    height: auto;
-}
-
-ul#images li button {
-    display: inline-block;
-}
-
---- End of grid layout styles. */
-
-ul#images {
-    list-style-type: none;
-}
-
-ul#images .placeholder {
-    font-size: 2em;
-    font-weight: lighter;
-    color: #666;
-    width: 100%;
-    margin: 2em;
-}
-.modal-body img {
-    width: 100%;
-    height: auto;
-}
-
 hr {
     clear:both;
 }
+#navbar-inverse {
+  background-color:#3b3a36;
+}
+div.thumbnail {
+  height: 350px;
+  max-height: 350px;
+  background-color:#e9ece5;
+}
 
+img {
+  height 150px;
+  max-height: 150px;
+  padding-top: 30px;
+}
+.row {
+  padding-left: 65px;
+  padding-right: 65px;
+  }
+.caption, .author, .label, .date {
+  text-align: center;
+  vertical-align: middle;
+}
+form {
+    display: inline-block;
+    text-align: center;
+    }
+p#copyright {
+  text-align:center;
+}
+div.container {
+  width:100%;
+  padding: 0px;
+}
+div.jumbotron {
+  background-color: #b3c2bf;
+}
+button.search {
+  background: #b3c2bf;
+  color: #3b3a36;
+}
 
+.btn:hover {
+  background:#e9ece5;
+  color:#3b3a36;
+}
+h1{
+  margin-left:15px;
+}
+div.jumbotron p {
+  margin-left: 15px;
+}
 
 
 
