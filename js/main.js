@@ -33,7 +33,7 @@ $(document).on('ready', function(){
         newItem.appendTo( "#images" );   
 
         //limiting number of photos
-        if ( i === 30 ) {
+        if ( i === 11 ) {
           return false;
         }
       });
